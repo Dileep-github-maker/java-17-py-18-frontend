@@ -1,0 +1,30 @@
+/* CSS Selectors */
+
+/* Universal */
+* {
+    font-family: 'Monolisa', sans-serif;
+}
+
+/* Element Selector */
+h1 {
+    color: brown;
+}
+
+/* Class Selector */
+.listitems {
+    color: red;
+}
+
+.lifont {
+    font-size: 20px;
+}
+
+/* ID Selector */
+#newcolor {
+    color: grey;
+}
+
+/* Attribute Selector */
+[data-selector="attr"] {
+    color: blue;
+}

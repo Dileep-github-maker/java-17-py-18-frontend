@@ -1,0 +1,42 @@
+.navbar {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Desendant Combinator */
+/* .navbar a {
+    color: red;
+} */
+
+/* Child Combinator */
+.navbar > a {
+    color: red;
+}
+
+/* Adjacent Sibling */
+/* h1 + p {
+    color: brown;
+} */
+
+/* General Sibling */
+h1 ~ p {
+    color: brown;
+}
+
+
+/* Pseudo Elements and Classes */
+h1:hover {
+    color: blueviolet;
+}
+
+h1::after {
+    color: red;
+    content: '*';
+}
+
+ul li::marker {
+    content: '🚀';
+}
+
+input:checked + label {
+    color: grey;
+}
