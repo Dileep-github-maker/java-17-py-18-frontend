@@ -1,0 +1,50 @@
+h3{
+    border-radius: 20px;
+}
+h3:hover{
+    background-color: blueviolet;
+    color: ;
+}
+.git{
+    position: relative;
+    margin: 500px;
+    width: 500px;
+    height: 500px;
+}
+.git img{
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+}
+.ba{
+    position: absolute;
+    background-color: blue;
+    top: 10px;
+   
+}
+.bb{
+    position: absolute;
+    background-color: wheat;
+    border-radius: 50%;
+    bottom: 10px;
+}
+.bc{
+    position: absolute;
+    top: 250px;
+    left: 45%;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.bd{
+    position: absolute;
+    top: 10px;
+    right:10px ;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+.be{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: blanchedalmond;
+}
